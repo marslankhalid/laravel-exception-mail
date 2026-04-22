@@ -1,12 +1,12 @@
 {
-    "name": "tmsllc/laravel-exception-mail",
+    "name": "marslankhalid/laravel-exception-mail",
     "description": "This package will allow you to specify email addresses to send them all the exceptions that occurs in Laravel application.",
     "keywords": [
         "laravel",
         "exception",
         "mail"
     ],
-    "homepage": "https://github.com/tmsllc/laravel-exception-mail",
+    "homepage": "https://github.com/marslankhalid/laravel-exception-mail",
     "license": "MIT",
     "authors": [
         {
@@ -17,12 +17,12 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^8.71|^9.0"
+        "php": "^8.0|^8.1|^8.2",
+        "illuminate/support": "^8.71|^9.0|^10.0|^11.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.4",
-        "orchestra/testbench": "^6.23|^7.0"
+        "phpunit/phpunit": "^9.4|^10.0|^11.0",
+        "orchestra/testbench": "^6.23|^7.0|^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -49,6 +49,7 @@
         }
     },
     "minimum-stability": "dev",
+    "version": "1.0.1",
     "vendor/package": "1.0.0",
     "prefer-stable": true
 }
